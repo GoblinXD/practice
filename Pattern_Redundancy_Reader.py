@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
-
 import math
 while True:
     N2 = int(input("Enter a number between the digits of 2 and 10.\n"))
@@ -38,17 +32,3 @@ Pos =  (N * P - 1) * N * P - 1
 Re = Pos / S
 Per = Re / T
 print("The possibility of you repeating the same pattern is %", math.floor(Per))
-
-
-# In[3]:
-
-
-N = 2
-P = 10
-Pos = (N * P) * N * P
-S = 3
-T = 60
-Re = Pos / S
-Per = Re / T
-print(Per)
-
